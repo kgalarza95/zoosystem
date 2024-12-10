@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "4a34c54d-5884-4b84-8a9b-8195b93e7265",
+		"name": "API_ZOO_SYSTEM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40243389"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/animal/ping",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"animal",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "animal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/animales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"animales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "manuales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/manuales/elefante",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"manuales",
+						"elefante"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
