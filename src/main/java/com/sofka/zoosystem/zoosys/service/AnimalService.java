@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class AnimalService {
 
-    public Respuesta crearAnimal() {
+    public Respuesta crearAnimal( ) {
         List<Animal> listAnimales = new ArrayList<>();
         System.out.println();
         Animal elefante = new Elefante("Elefantito", 2, 4, "Macho");
