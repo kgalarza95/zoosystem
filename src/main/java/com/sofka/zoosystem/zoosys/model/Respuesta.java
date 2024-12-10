@@ -38,4 +38,5 @@ public class Respuesta {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
+
 }
