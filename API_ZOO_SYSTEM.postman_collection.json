@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "4a34c54d-5884-4b84-8a9b-8195b93e7265",
+		"_postman_id": "7a0641bc-0b3a-4bd2-bd26-32fd32d74713",
 		"name": "API_ZOO_SYSTEM",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "40243389"
+		"_exporter_id": "18265754"
 	},
 	"item": [
 		{
@@ -63,6 +63,36 @@
 						"api",
 						"manuales",
 						"elefante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Precio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Juanito\",\r\n  \"edad\": 8,\r\n  \"tipo\": \"niño\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/entrada/precio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"entrada",
+						"precio"
 					]
 				}
 			},
