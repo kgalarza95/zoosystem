@@ -5,6 +5,6 @@ import com.sofka.zoosystem.zoosys.model.strategy.ManualStrategy;
 public class ElefanteManual implements ManualStrategy {
     @Override
     public String obtenerManual() {
-        return "Manual elefante";
+        return "Manual para registrar un elefante";
     }
 }
