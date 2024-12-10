@@ -15,8 +15,8 @@ public class AnimalService {
     public Respuesta crearAnimal() {
         List<Animal> listAnimales = new ArrayList<>();
         System.out.println();
-        Animal elefante = new Elefante("Missy", 2, 4, "Macho");
-        Animal leon = new Leon("Michi", 1, 2, "Macho");
+        Animal elefante = new Elefante("Elefantito", 2, 4, "Macho");
+        Animal leon = new Leon("Leonillo", 1, 2, "Macho");
 
         listAnimales.add(elefante);
         listAnimales.add(leon);

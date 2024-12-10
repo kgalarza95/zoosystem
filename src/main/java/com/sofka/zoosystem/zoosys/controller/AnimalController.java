@@ -15,10 +15,6 @@ public class AnimalController {
     @Autowired
     private AnimalService animalService;
 
-    @GetMapping("/ping")
-    public String ping(){
-        return "Hola mundo";
-    }
 
     @PostMapping
     public Respuesta crearAnimal(){
